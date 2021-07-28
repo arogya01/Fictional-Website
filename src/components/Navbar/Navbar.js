@@ -40,7 +40,7 @@ window.addEventListener("resize", showButton);
       <IconContext.Provider value={{ color: "#fff" }}>
         <Nav>
           <NavbarContainer>
-            <NavLogo to="/">
+            <NavLogo to="/" onClick={handleClick}>
               <NavIcon />
               ULTRA
             </NavLogo>
